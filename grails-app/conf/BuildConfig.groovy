@@ -40,10 +40,14 @@ grails.project.dependency.resolution = {
         runtime ":hibernate:$grailsVersion"
         runtime ":jquery:1.7.1"
         runtime ":resources:1.1.5"
+		
 
-		// Mail Support
+		// Utility
+		compile ":quartz:0.4.2"
 		compile ":mail:1.0"
+		compile ":codenarc:0.16.1"
         
+
 		// Testing
 		compile ":remote-control:1.2"
 		compile ":functional-test-development:0.2"
@@ -51,6 +55,7 @@ grails.project.dependency.resolution = {
 		compile ":geb:0.6.2"
 		compile ":spock:0.6-SNAPSHOT"
 		
+
 		// Spring Security 
 		compile ":spring-security-core:1.2.7.1"
 		compile ":spring-security-appinfo:1.0"
