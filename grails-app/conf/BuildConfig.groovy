@@ -41,6 +41,23 @@ grails.project.dependency.resolution = {
         runtime ":jquery:1.7.1"
         runtime ":resources:1.1.5"
 
+		// Mail Support
+		compile ":mail:1.0"
+        
+		// Testing
+		compile ":remote-control:1.2"
+		compile ":functional-test-development:0.2"
+		compile ":fixtures:1.1"
+		compile ":geb:0.6.2"
+		compile ":spock:0.6-SNAPSHOT"
+		
+		// Spring Security 
+		compile ":spring-security-core:1.2.7.1"
+		compile ":spring-security-appinfo:1.0"
+		compile ":spring-security-ui:0.1.2"
+		compile ":jquery-ui:1.8.2.3"
+        compile ":famfamfam:1.0"
+
         build ":tomcat:$grailsVersion"
     }
 }
